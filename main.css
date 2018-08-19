@@ -29,12 +29,7 @@ li li {
     font-size: 1em;
 }
 
-.warning {
-    border: solid 5px red;
-    border-radius: 3px; 
-    padding: 0 5px;
-    margin-bottom: 5px; 
-}
+
 /* Default Header (Small Mobile) */
 
 header {
@@ -139,7 +134,12 @@ nav {
 }
 
 /* Default Main Content (Mobile) */
-
+.warning {
+    border: solid 5px red;
+    border-radius: 3px; 
+    padding: 0 5px;
+    margin-bottom: 5px; 
+}
 .subpage-title {
     background-color: #666;
     color: white; 
