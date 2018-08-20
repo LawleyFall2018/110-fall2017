@@ -188,11 +188,15 @@ panel p {
     margin-top: 5px; 
 }
 
-.panel ul {
+.panel ul, ol {
     padding-left: 25px; 
     padding-bottom: 5px;
     margin-top: 5px;
     font-size: .95em;
+}
+
+.panel ol li {
+    padding-bottom: 5px; 
 }
 
 
