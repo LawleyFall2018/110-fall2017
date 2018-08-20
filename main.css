@@ -133,7 +133,7 @@ header {
 
 /* Hide Content on Mobile */
 
-nav {
+nav, .rubric, #rubric {
     display: none;
 }
 
@@ -147,7 +147,7 @@ nav {
 .subpage-title {
     background-color: #666;
     color: white; 
-    padding-left: 10px;
+    padding: 10px;
     margin-top: 0;
     border-radius: 3px; 
     font-weight: 600;
@@ -195,16 +195,13 @@ panel p {
     font-size: .95em;
 }
 
-h3 + p {
-    padding-left: 10px; 
-    margin-top: 0;
-}
-
 
 .screenshot {
     max-width: 95%;
     border: 1px solid black;
 }
+
+
 
 /* Default Footer (Mobile) */
 
@@ -254,6 +251,7 @@ footer {
         grid-row: 2;
         grid-column: 2;
     }
+
     nav {
         border: solid lightgrey 1px;
         border-radius: 3px;
@@ -327,46 +325,61 @@ footer {
             position: fixed;
         }
 
+        #rubric {
+            display: flex;
+        }
+
+        .rubric {
+            display: grid;
+            width: 100%;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 30px repeat(1fr);
+            grid-gap: 1em;
+            border-color: #333;
+            border-radius: 0 0 3px 3px;
+            font-size: .8em;
+        }
+
     /* Calendar Sidebar */
     #calendar {
         align-items: center;
         
     }
 
-    .month {
+    #calendar .month {
         display: block;
         margin-bottom: 20px;
         empty-cells: hide;
     }
-    .month_title {
+    #calendar .month_title {
         background: #666;
         color: #fff;
         text-align: center;
         padding: 0;
     }
-    .month_name {
+    #calendar .month_name {
         font-size: 14px;
         font-weight: bold;
         margin: .5em;
         padding: 3px;
     }
-    tr.weekdays td {
+    #calendar tr.weekdays td {
         height: 1em;
         width: 2em;
         font-size: 12px;
         font-weight: 600;
     }
-    tr.week {
+    #calendar tr.week {
         cursor: pointer;
     }
-    tr td {
+    #calendar tr td {
         text-align: center;
         background-color: #eaeaea;
         border: 1px solid #eaeaea;
         padding: 5px;
         font-size: 10px;
     }
-    tr.inactive_week td {
+    #calendar tr.inactive_week td {
         background-color: #fff;
     }
 }
