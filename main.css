@@ -206,9 +206,10 @@ panel p {
 /* Default Footer (Mobile) */
 
 footer {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
-    font-size: .7em;
-    text-align: center;
+    font-size: .8em;
     border-top: 1px solid #666;
     padding: 3px;
 }
