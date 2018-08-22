@@ -78,7 +78,7 @@ for (i = 0; i < headings.length; i++) {
     /* Toggle between hiding and showing the active panel */
     var panel = this.nextElementSibling;
     $(panel).toggle();
-    $(this).children('svg').toggleClass("fa-caret-down fa-caret-left");
+    $(this).children('i').toggleClass("fa-caret-down fa-caret-left");
   });
 } 
 
