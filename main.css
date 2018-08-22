@@ -213,7 +213,7 @@ panel p {
     font-size: .95em;
 }
 
-.panel>ul:first-child {
+.panel>ul:first-child, .panel>ol:first-child {
     padding-top: 1em;
 }
 
