@@ -139,7 +139,7 @@ nav, .rubric, #rubric {
     border: solid 5px red;
     border-radius: 3px; 
     padding: 0 5px;
-    margin-bottom: 5px; 
+    margin-bottom: 1em; 
 }
 .page-title {
     margin-top: 5px;
@@ -193,6 +193,13 @@ nav, .rubric, #rubric {
     margin-bottom: 0;
 
 }
+
+/* Sam Ruby's lovely and elegant solution to hiding the border above the first h3 if it's the first element in the panel (see "General Policies" on index.html for an example) */
+
+    .panel>h3:first-child {
+        border: none;
+    }
+
 
 panel p {
     padding:  0 5px 0 10px;
@@ -346,12 +353,7 @@ footer img {
         padding-left: 10px;
     }
   
-    /* Sam Ruby's lovely and elegant solution to hiding the border above the first h3 if it's the first element in the panel (see "General Policies" on index.html for an example) */
-
-    .panel>h3:first-child {
-      border: none;
-    }
-    
+     
    
     /* Summary Sidebar */
         #summary, #toc {
