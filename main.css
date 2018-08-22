@@ -213,6 +213,10 @@ panel p {
     font-size: .95em;
 }
 
+.panel li {
+    padding-bottom: .4em;
+}
+
 .panel ol li {
     padding-bottom: 5px; 
 }
