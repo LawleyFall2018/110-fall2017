@@ -229,6 +229,19 @@ h3 + p {
     margin-top: .4em;
 }
 
+.examplecode {
+    width: 85%;
+    margin: 0 auto;
+    border: 1px dashed black;
+    padding: .75em;
+    background-color: #eee;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+code, pre {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
 
 .screenshot {
     max-width: 95%;
