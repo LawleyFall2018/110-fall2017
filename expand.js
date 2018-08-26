@@ -8,7 +8,7 @@ jQuery(document).ready(function ($) {
   var setClass = function () {
     if (sw >= 801) {
       console.log("onload more than 800");
-       $('.fa-angle-left').toggleClass('fa-angle-left fa-angle-down');
+      $('.fa-angle-left').toggleClass('fa-angle-left fa-angle-down');
       currentState = "desktop";
     }
     else {
@@ -64,11 +64,17 @@ jQuery(document).ready(function ($) {
   getMenuPos();
 
   $(window).scroll(function () {
-      if (window.pageYOffset >= sticky) {
-        $( navbar ).addClass( "sticky" );
-      } else {
-        $( navbar ).removeClass( "sticky" );
-      }
+    if (window.pageYOffset >= sticky) {
+      $(navbar).addClass("sticky");
+    } else {
+      $(navbar).removeClass("sticky");
+    }
+  });
+
+  $('#toc-wrapper a').click(function() {
+    var target = $(this.hash);
+    $('html, body').animate({ scrollTop: target.offset().top-50 }, 1000);
+    return false;
   });
 
 
@@ -87,6 +93,4 @@ for (i = 0; i < headings.length; i++) {
     $(panel).toggle();
 
   });
-} 
-
-    
+};
