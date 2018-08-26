@@ -130,7 +130,7 @@ header {
 
 /* Hide Content on Mobile */
 
-nav, .rubric, #rubric {
+nav, .rubric, #rubric, #expandCollapse {
     display: none;
 }
 
@@ -361,6 +361,22 @@ footer img {
     .mobile-break {
         display: none;
     }
+
+    #expandCollapse {
+        display: block; 
+        padding-bottom: .5em;
+        padding-right: .5em;
+        text-align: right; 
+    }
+
+    #expandAll, #collapseAll {
+        color: #f6f;
+        cursor: pointer;
+        border: 2px solid #f6f;
+        border-radius: 1px;
+        padding: 0 5px;
+    }
+
 
     .weekinfo {
         font-weight:200; 
