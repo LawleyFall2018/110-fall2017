@@ -105,32 +105,48 @@
             </div>
 
             <div class="subhead" id="part4">
-                <h2>Part 4: Creating and Linking a Second Page</h2>
+                <h2>Part 4: Image and Link References</h2>
                 <i class="fas fa-angle-left" aria-label="expand/collapse arrow"></i>
             </div>
 
             <div class="panel">
-                <p>Create a new HTML file in your igme230 directory, and name it page2.html. Give it a title of “Your Name’s Second HTML Page.” (Put that in the title tag, as well as in a level 1 heading on the page.)</p>
+                <p>In this section, we're going to look more closely at how to reference other files, both for images and for links.</p>
 
-                <p>Find another image and save this one into the media folder that's inside the igme110 folder. To reference it in your img src, you'll need to include the folder name and the file name, like this: "media/yourimage.png"</p>
-
-                <p>Add an unordered list underneath the image, with two list items:</p>
+                <p>When you're referencing another file on the same web server, you can (and typically should) use a <em>relative</em> reference, which points to the file using your current location as the starting point.</p>
                 <ul>
-                    <li>A full URL link to the original source of the image on the current page</li>
-                    <li>A relative reference (file name only) to the index.html page</li>
-                </ul>
+                    <li>If the file you're referencing is in the same directory as your web page, you just use the file name (as you did with the image on the index.html page).</li>
+                    <li>If the file is in a different directory, you need a directory path as well as the file name. (You can get more information about how to do this in MDN's <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks#A_quick_primer_on_URLs_and_paths">Quick Primer on URLs and Paths</a>.)
+                
+                <p>When you're referencing a file on a different web server, you must use what's called a "fully qualified URL"--which means you must include not just the server name and path to the file, but also the protocol (http:// or https://).</a> 
+                    
+                <p>Start by creating another new HTML file in your igme230 directory, and name it page2.html. Give it a title of “Your Name’s Second HTML Page.” (Put that in the title tag, as well as in a level 1 heading on the page.)</p>
 
-                <p>Here's what my code looks like now:</p>
+                <p>Find another CC-licensed image to use on this page, and save it to the media directory inside the igme110 directory. (Copy down the URL for the source page, because you'll need that later.) Your file structure should look like this now:</p>
+
+                <img src="vscode-allfiles.png" alt="new file structure screenshot" class="screenshot">
+                    
+                <p>To reference this image in your img src, you'll need to include the folder name along with the file name, like this:</p>
+
+                <img src="vscode-mediapath.png" alt="img tag with relative path" class="screenshot">
+
+
+                <p>Next, you're going to add two links to this page; one to the original source of the image you just used, and one back to your first (index) page.</p>
+
+                <p>The link to the site where you found the image will have the full URL (including the protocol) in the href attribute. That's considered a "fully qualified URL". To link to Google, for instance, you can't just use "google.com"--you have to use http://google.com/, or https://google.com. (Don't just link to a search engine or image archive, though--provide a link directly to the page where you found the image.)</p> 
+
+                <p>To reference a page on your own site, you can use a relative path (as you did with the img tag on the index.html file). If the file is in the same directory, all you need is the file name.</p>
+
+                <p>Add both links to the bottom of your page, and make them list items in an unordered list, like this: </p>
 
                 <img src="html3.png" alt="second page html code" class="screenshot">
 
-                <p>And here's how it looks in the browser:</p>
+                <p>Here's how it should look in the browser:</p>
 
                 <img src="browser3.png" alt="second page browser screenshot" class="screenshot">
 
                 <p>Go back to your index.html file, and add a link to the source of the image on that page, and a link to the page2.html. (You can put these in a list again, or you can include them as part of a paragraph of text.)</p>
 
-                <p>Test both your pages and make sure that the images and links work properly. </p>
+                <p>Test both of your pages and make sure that the images and links work properly. </p>
 
                 <p>You need to have either the TA or the professor check your work to get credit for this. You can do this in class on Tuesday, during office hours on Wednesday, or at the start of class on Thursday.</p> 
             </div>
