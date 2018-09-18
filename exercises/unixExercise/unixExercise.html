@@ -16,7 +16,7 @@
     <div id="wrapper">
         <header>
             <div id="prof">
-                <img alt="Photo of Professor Lawley" src="../../lawley-gls.jpg" onClick="document.location.href='http://lawley.rit.edu';" />
+                <img alt="Photo of Professor Lawley" src="../../lawley-gls.jpg" onclick="document.location.href='http://lawley.rit.edu';" />
                 <p id="name">Professor <br class="mobile-break"> Lawley</p>
             </div>
             <div id="title">
@@ -73,7 +73,7 @@
 
             </div>
 
-            <div class="subhead" id="part1">
+            <div class="subhead" id="part2">
                 <h2>Part 2: Logging In and Logging Out</h2>
                 <i class="fas fa-angle-left" aria-label="expand/collapse arrow"></i>
             </div>
@@ -104,7 +104,6 @@
 
                 <div class="examplecode">
                     $<strong>whoami</strong><br> abc1234
-                    </code>
                 </div>
 
                 <p>That's it — all this command does is print the login name of the current user. Congratulations, you've just had your first taste of the power of UNIX!</p>
@@ -121,7 +120,7 @@
                 <p>Of course, you'll have to log back in to continue with the tutorial!</p>
             </div>
 
-            <div class="subhead" id="part1">
+            <div class="subhead" id="part3">
                 <h2>Part 3: Looking Around</h2>
                 <i class="fas fa-angle-left" aria-label="expand/collapse arrow"></i>
             </div>
@@ -148,7 +147,6 @@
 
                 <div class="examplecode">
                     $ <strong>cd /home</strong><br> $ <strong>pwd</strong><br> /home
-                    </pre>
                 </div>
 
                 <p>Note that <strong>cd</strong> does not give you any feedback if it succeeds. You can use <code><strong>pwd</strong></code> to verify the new working directory. Now try <code><strong>cd</strong></code> without any arguments. Where does it take you?</p>
@@ -229,7 +227,7 @@ drwxr-xr-x 10 abc1234 student 4096 Dec  7  2017 www/
                     <li><code>abc1234</code>: The username of the file's owner (in this cae, you)</li>
                     <li><code>student</code>: The user group of the file's owner--student, faculty, or staff.</li>
                     <li><code>Dec 7 2017</code>: The last modification date for the file</li>
-                    <li><code>4096</code>: The size of the file (in bytes)
+                    <li><code>4096</code>: The size of the file (in bytes)</li>
                     <li><code>www/</code>: The file name</li>
                 </ul>
 
