@@ -252,6 +252,11 @@ code, pre {
     border: 1px solid black;
 }
 
+.smallscreenshot {
+    max-width: 49%;
+    border: 1px solid black;
+}
+
 .fa-exclamation-circle {
     margin-right: 5px;
 }
