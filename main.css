@@ -403,7 +403,7 @@ footer img {
     
     .panel {
         background-color: white;
-        display: block;
+        /* display: block; */
         padding-left: 10px;
     }
   
