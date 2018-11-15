@@ -1,3 +1,5 @@
+[Back to IGME-110 Week 12](https://lawleyfall2018.github.io/110-fall2018/schedule.html#week12)
+
 # Digital Audio Exercise
 
 This exercise introduces you to basic digital audio production. You will be using Audacity, an open source audio editor, to create a soundtrack for a PowerPoint presentation. This will require you to learn the basic skills needed to record, edit, mix and integrate a voiceover track. 
@@ -94,5 +96,5 @@ If you have multiple files, one for each slide, you'll attach the appropriate au
 - Note: That final step is only necessary because the transitions between slides are considered animations. If you do not include transitions or animations in your final project for the class, you will not need to worry about this step in your project narration.
 
 ## Submitting your files
-Submit your finished .pptx file to the Week 12 Exercise: Ignite Soundtrack dropbox. If you choose to work on this on your own rather than coming to class on Thursday, the completed presentation, with working audio, must be submitted to the myCourses dropbox by the beginning of Thursday's class. If you come to class on Thursday, the exercise is due by 6pm on Saturday, November 18th.
+Submit your finished .pptx file to the Week 12 Exercise: Ignite Soundtrack dropbox. If you choose to work on this on your own rather than coming to class on Thursday, the completed presentation, with working audio, must be submitted to the myCourses dropbox by the beginning of Thursday's class. If you come to class on Thursday, the exercise is due by 6pm on Saturday, November 17th.
 

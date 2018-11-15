@@ -1,3 +1,5 @@
+[Back to IGME-110 Week 12](https://lawleyfall2018.github.io/110-fall2018/schedule.html#week12)
+
 # Alternate Digital Audio Exercise
 
 This exercise introduces you to the process of adding captions or subtitles to a video.  
@@ -40,5 +42,5 @@ We're going to use YouTube's built-in tools to help with captioning of videos.
 ## Submitting your files
 Once you're done, upload the .mp4 and .srt files to the dropbox for week 12. In the description for the submission, include the URL to the YouTube video. 
 
-If you choose to work on this on your own rather than coming to class on Thursday, the files and link must be submitted to the myCourses dropbox by the beginning of Thursday's class. If you come to class on Thursday, the exercise is due by 6pm on Saturday, November 18th.
+If you choose to work on this on your own rather than coming to class on Thursday, the files and link must be submitted to the myCourses dropbox by the beginning of Thursday's class. If you come to class on Thursday, the exercise is due by 6pm on Saturday, November 17th.
 
