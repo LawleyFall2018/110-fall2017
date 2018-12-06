@@ -24,4 +24,4 @@ Have you tried searching for any traces of yourself in Google? I want you to do 
 - Search for your name, username, and/or email address on social sites like Facebook, Reddit, etc (To search for a username on Reddit, use author:*username*)
 
 ## Deliverable
-Write a 2-3 paragraph summary of what you found. How much information about yourself were able to locate? More than you expected? Less? Was there anything you were surprised to find? Anything that you chose to remove after finding? Anything that you would like to make more accessible? Upload the document to the dropbox in myCourses. 
+Write a 2-3 paragraph summary of what you found when you searched for yourself. How much information about yourself were able to locate? More than you expected? Less? Was there anything you were surprised to find? Anything that you chose to remove (you don't have to be specific...)? Anything that you would like to make more accessible? Upload the document to the dropbox in myCourses. This should be submitted by noon on Saturday (December 8). 
